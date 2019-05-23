@@ -1,0 +1,36 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_Layout</title>
+    <link href="~/Content/site.css" rel="stylesheet" />
+</head>
+<body class="hello">
+    <header>
+        <h1>HEADER</h1>
+    </header>
+    <nav>
+        <span>Importante nav</span>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </nav>
+    
+    <section>@RenderBody()</section>
+      <aside>
+         <h1>Publicidad</h1> 
+      </aside> 
+    <footer>
+        &copy; 2019
+    </footer> 
+    
+</body>
+</html>
